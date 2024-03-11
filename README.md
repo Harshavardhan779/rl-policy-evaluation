@@ -158,7 +158,7 @@ Mention the first and second policies along with its state value function and co
 
 ## Comparision:
 ![OUTPUT](/comparison.png)
-<img width="726" alt="image" src="https://github.com/KoduruSanathKumarReddy/rl-policy-evaluation/assets/69503902/acc5aac5-df0c-4f5a-8ef8-447f1e9eae00">
+
 
 ## RESULT:
 
