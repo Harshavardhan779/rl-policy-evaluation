@@ -25,6 +25,7 @@ import warnings
 warnings.filterwarnings('ignore', category=DeprecationWarning)
 np.set_printoptions(suppress=True)
 random.seed(123); np.random.seed(123)
+```
 ```python
 def print_policy(pi, P, action_symbols=('<', 'v', '>', '^'), n_cols=4, title='Policy:'):
     print(title)
@@ -38,6 +39,7 @@ def print_policy(pi, P, action_symbols=('<', 'v', '>', '^'), n_cols=4, title='Po
             print(str(s).zfill(2), arrs[a].rjust(6), end=" ")
         if (s + 1) % n_cols == 0: print("|")
 ```
+```python
 def print_state_value_function(V, P, n_cols=4, prec=3, title='State-value function:'):
     print(title)
     for s in range(len(P)):
